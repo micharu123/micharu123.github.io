@@ -2,7 +2,7 @@
 
 ## Overview 
 
-This repository contains the personal website and blog of [https://github.com/micharu123](micharu123). I use GitHub Pages, Jekyll, and Route 53 to create my own home on the Internet.
+This repository contains the personal website and blog of [micharu123](https://github.com/micharu123). I use GitHub Pages, Jekyll, and Route 53 to create my own home on the Internet.
 
 Please see [micharu123.github.io](micharu123.github.io) or [michaelrushanan.org](micharu123.github.io).
 
