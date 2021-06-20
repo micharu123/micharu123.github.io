@@ -8,7 +8,7 @@ Please see [micharu123.github.io](micharu123.github.io) or [michaelrushanan.org]
 
 ## Getting Started
 
-My website uses [GitHub Pages](https://pages.github.com/).
+My website uses [GitHub Pages](https://pages.github.com/). I provide the sections "Quickstart" and "Build and Deploy" for no-nonsense deployment to a local server and steps for the full approach, including deploying to Github.
 
 ### Quickstart
 
