@@ -101,6 +101,13 @@ a {
   /* 1 */
   -webkit-text-decoration-skip: objects;
   /* 2 */
+  text-decoration: none;
+  color:#515151;
+}
+
+a.active {
+    background-color: #6a30a8;
+    color: #fff;
 }
 
 /**
@@ -884,12 +891,60 @@ table tfoot td {
 }
 
 .wrapper {
+  max-width: 1250px;
   position: fixed;
   left: 7%;
   right: 7%;
   height: 100%;
   background-color: #fff;
   overflow: auto;
+}
+
+/* Disable visible scrollbars in the wrapper or wherever. */
+.disable-scrollbars::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* Chrome/Safari/Webkit */
+}
+
+.disable-scrollbars {
+scrollbar-width: none; /* Firefox */
+-ms-overflow-style: none;  /* IE 10+ */
+}
+
+mark {
+  margin: 0 -0.4em;
+  padding: 0.1em 0.4em;
+  border-radius: 0.8em 0.3em;
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 225, 0, 0.1),
+    rgba(255, 225, 0, 0.7) 4%,
+    rgba(255, 225, 0, 0.3)
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+/* Added in navigation. */
+nav.main-nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+}
+
+nav.main-nav li,
+nav.main-nav a {
+	display: inline-block;
+}
+
+nav.main-nav li a {
+	padding: 10px;
+}
+
+nav.main-nav li a:hover {
+  text-decoration: solid underline;
 }
 
 .post, .article-page {
@@ -932,7 +987,6 @@ table tfoot td {
           justify-content: space-between;
   position: fixed;
   top: 0;
-  left: 7%;
   bottom: 0;
   width: 240px;
   height: 100%;
@@ -1002,6 +1056,7 @@ table tfoot td {
 .content-box {
   padding: 20px;
   padding-left: 260px;
+  padding-top: 50px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
