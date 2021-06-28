@@ -924,6 +924,7 @@ nav.main-nav ul {
 	padding: 0;
 	list-style: none;
 	float: right;
+  background-color: #fff;
 }
 
 nav.main-nav li,
@@ -985,6 +986,8 @@ nav.main-nav li a:hover {
   padding: 20px 10px;
   background-color: #ffffff;
   z-index: 2;
+  /* border-right-style: inset;
+  border-right-color: #f2f3f4; */
 }
 
 .about {

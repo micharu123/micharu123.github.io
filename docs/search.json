@@ -1,5 +1,5 @@
 [
-  {% for post in _posts %}
+  {% for post in site._posts %}
   {
     "title"    : "{{ post.title | escape }}",
     "url"      : "{{ site.baseurl }}{{ post.url }}",
