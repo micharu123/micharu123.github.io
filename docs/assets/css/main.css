@@ -940,6 +940,17 @@ nav.main-nav li a:hover {
   text-decoration: solid underline;
 }
 
+.search-input {
+  display: block;
+  max-width: 280px;
+  height: 45px;
+  margin: auto;
+  border: 1px solid rgba(0,0,0,0.2);
+  outline: none;
+  font-size: medium;
+  padding-left: 10px;
+}
+
 .post, .article-page {
   background-color: #fff;
 }
