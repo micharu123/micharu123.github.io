@@ -6,12 +6,6 @@
   <div class="wrapper disable-scrollbars">
     <nav class="main-nav">
       <ul>
-        <li>
-          <div id="search-container">
-            <input type="text" id="search-input" class="search-input" placeholder="🔎 search...">
-            <ul id="results-container"></ul>
-            </div>
-        </li>
         {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
         {% for p in navigation_pages %}
           {% if p.navigation_weight %}
@@ -26,7 +20,7 @@
     </nav>
     {{ content }}
   </div>
-  
+
   {% include analytics.html %}
 </body>
 </html>

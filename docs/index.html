@@ -3,6 +3,11 @@ layout: main
 title: HOME
 navigation_weight: 2
 ---
+<!-- Generate search bar -->
+<script type="text/javascript">
+  insert_into_nav_main(true, null);
+</script>
+
 {% for post in paginator.posts %}
 <article class="post">
   {% if post.img %}
