@@ -9,7 +9,7 @@ function insert_into_nav_main(search_bar, post_title) {
     var li = document.createElement("li");
 
     if (search_bar) {
-        li.innerHTML = "<div id=\"search-container\"><input type=\"text\" class=\"search-input\" placeholder=\"$ Type to search\" autofocus onKeyPress=\"handle_search_input(event)\" onKeyUp=\"handle_search_input(event)\">";
+        li.innerHTML = "<div id=\"search-container\"><input type=\"text\" class=\"search-input\" placeholder=\"$ Type to search\" autofocus OnKeyUp=\"handle_search_input(event)\">";
 
         // Insert to head of nav.
         ul.insertBefore(li, ul.firstChild);

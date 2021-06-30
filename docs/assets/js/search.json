@@ -8,7 +8,8 @@
     "description": "{{ post.description | escape }}",
     "tags"     : "{{ post.tags | join: ', ' }}",
     "img"      : "{{ post.img }}",
-    "fig-caption" : "{{ post.fig-caption }}"
+    "fig-caption" : "{{ post.fig-caption }}",
+    "date"     : "{{ post.date }}"
   } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
