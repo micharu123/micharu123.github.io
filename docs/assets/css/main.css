@@ -942,11 +942,11 @@ nav.main-nav li a:hover {
 
 .search-input {
   outline: none;
-  padding: 10px 27px;
+  padding: 10px;
   border: none;
   width: 100%;
-  border-radius: 1px;
-  box-shadow: 0 1px 0px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  /* border-radius: 1px;
+  box-shadow: 0 1px 0px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08); */
 }
 
 .post, .article-page {
