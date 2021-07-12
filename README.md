@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="Personal website and blog of micharu123" src="./app-icon.png">
+    <img alt="Personal website and blog of micharu123" src="./app-icon.png" style="width:275px; height:240px;">
 </P>
 
 # michaelrushanan.org
