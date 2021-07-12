@@ -1,5 +1,5 @@
 <p align="center">
-![Personal website and blog of micharu123](./app-icon.png)
+    <img alt="Personal website and blog of micharu123" src="./app-icon.png">
 </P>
 
 # michaelrushanan.org
