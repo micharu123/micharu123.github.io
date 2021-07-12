@@ -18,7 +18,7 @@ function insert_into_nav_main(search_bar, post_title) {
         sjs = SimpleJekyllSearch({
             searchInput: document.getElementById('search-input'),
             resultsContainer: document.getElementById('results-container'),
-            json: 'localhost:4000/assets/js/search.json'
+            json: '/assets/js/search.json'
         });
     }
     else {
