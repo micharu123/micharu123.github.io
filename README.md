@@ -1,3 +1,7 @@
+<p align="center">
+![Personal website and blog of micharu123](./app-icon.png)
+</P>
+
 # michaelrushanan.org
 
 ## Overview 
